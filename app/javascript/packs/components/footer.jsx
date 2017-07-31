@@ -19,7 +19,7 @@ export default class Footer extends Component {
 
         <div className='line'></div>
 
-        <h4 className='center-align'>Les partenaires</h4>
+        <h4 className='center-align'>Partenaires</h4>
 
         <div className='flex justify-center padding-bottom-50 sm-flex-col align-items-center'>
           <a href='http://www.azizachaouniprojects.com/'>

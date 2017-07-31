@@ -5,7 +5,7 @@ export default class Header extends Component {
   render() {
     return(
       <div>
-        <header>
+        <header className='hide-on-small-only'>
           <a href='/' className='header-item'>Info</a>
           <a href='/guide' className='header-item'>Guide D'Utilisation</a>
           <a href='/participez' className='header-item'>Partcipez</a>

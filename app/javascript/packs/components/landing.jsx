@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import Header from './header'
 import Footer from './footer'
+import Share from './share'
 
 export default class Landing extends Component {
   render() {
     return(
       <div className='container'>
         <Header />
+        <Share />
 
         <div className='flex justify-center video-wrapper'>
           <iframe src='https://www.youtube.com/embed/irNSpO3uNl0?rel=0&amp;controls=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
@@ -15,15 +17,15 @@ export default class Landing extends Component {
 
         <div className='row padding-top-50'>
           <div className='col no-pad m4 s12 offset-m1'>
-            <h3 className='center-align padding-bottom-10 max-width-475 margin-center'>VISION POUR L'ENTRÉE NORD</h3>
-            <h5 className='center-align max-width-475 margin-center'>Proposition de scénario d'aménagement</h5>
+            <h3 className='center-align padding-bottom-10 max-width-475 margin-center'>VISION POUR L’ENTRÉE NORD</h3>
+            <h5 className='center-align max-width-475 margin-center'>Proposition du scénario d’aménagement</h5>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
-              L’entrée nord du centre ville de Nouméa est une zone caractérisée par l'ancien Centre Hospitalier Territorial Gaston-Bourret, son parking et la voie express #1. C’est actuellement un no man’s land, coupé du littoral et du centre ville pourtant si proches, qui marque la baie de la Grande Rade d'un aspect désertique, vide et fantôme... Une baie jusque là délaissée, alors que son panorama est la première image de Nouméa que perçoivent la plupart des visiteurs. Une baie ignorée alors qu’elle est adjacente à deux sources majeurs de l’économie néo-caledonienne: la Société Le Nickel et le Port Autonome de la Nouvelle Calédonie.
+              L’entrée nord du centre-ville de Nouméa est une zone caractérisée par l’ancien Centre Hospitalier Territorial Gaston-Bourret, son parking et la voie express #1. C’est actuellement un no man’s land, coupé du littoral et du centre-ville pourtant si proches, qui marque la baie de la Grande Rade d’un aspect désertique, vide et fantôme... Une baie jusque là délaissée, alors que son panorama est la première image de Nouméa que perçoivent la plupart des visiteurs. Une baie ignorée alors qu’elle est adjacente à deux sources majeurs de l’économie néo-caledonienne: la Société Le Nickel et le Port Autonome de la Nouvelle Calédonie.
             </p>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
-              Et si cela changeait? Quel serait l'impact sur l'entrée nord et ses environs immédiats? Sur Nouméa et ses habitants? Enfin, sur la Nouvelle-Calédonie?
+              Et si cela changeait? Quel serait l’impact sur l’entrée nord et ses environs immédiats? Sur Nouméa et ses habitants? Enfin, sur la Nouvelle-Calédonie?
             </p>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
@@ -57,7 +59,19 @@ export default class Landing extends Component {
           </div>
         </div>
 
-        <h3 className='center-align'>À propos du projet de concertation citoyenne</h3>
+        <h3 className='center-align'>À PROPOS DE LA CONCERTATION</h3>
+
+        <p className='padding-right-20 padding-left-20 margin-0 hide-on-med-and-up'>
+          Votre participation peut influencer les futurs aménagements de votre ville, et en l’occurence la vision urbaine de l’entrée nord. Grâce à ce site web la concertation se déroulera d’août à octobre.
+        </p>
+
+        <p className='padding-top-20 padding-right-20 padding-left-20 margin-0 hide-on-med-and-up'>
+          L’engagement civique est crucial. Vous pouvez donner votre avis sur l’avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la Ville de Nouméa.
+        </p>
+
+        <p className='padding-20 margin-0 hide-on-med-and-up'>
+          Le calendrier de l’exposition sera bientôt affiché. Vous pourrez y laisser votre avis, qui sera immédiatement transmis au site web.
+        </p>
 
         <img
           src={require(`../images/timeline-desktop.svg`)}
@@ -70,7 +84,7 @@ export default class Landing extends Component {
         </div>
 
         <Footer />
-        
+
       </div>
     )
   }

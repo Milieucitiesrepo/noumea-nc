@@ -42,3 +42,26 @@ header {
 .themes {
   background: linear-gradient(45deg, #a8c0b2, #477393);
 }
+
+.share-social {
+  position: fixed;
+  top: 75px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+
+  @media #{$small-and-down} {
+    top: 0px;
+    right: 0px;
+    transform: scale(0.75, 0.75);
+  }
+
+  .icon {
+    margin-bottom: 5px;
+
+    &.scale {
+      transform: scale(1.1, 1.1);
+    }
+  }
+}

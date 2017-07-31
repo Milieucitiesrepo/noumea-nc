@@ -9,10 +9,12 @@ export default class Guide extends Component {
       <div className='container'>
         <Header />
 
+        <div className="line"></div>
+
         <h3 className='center-align margin-0'>Guide d’utilisation</h3>
 
         <p className='margin-center max-width-650 center-align padding-25'>
-          Participez à la municipalité ou dans votre maison de quartier à l'exposition sur l'aménagement de l'entrée nord. L'exposition a été conçue pour être interactive, vous pourrez y donner votre avis en dessinant directement sur une carte.
+          Votre participation peut influencer les futurs aménagements de votre ville, et en l’occurence la vision urbaine de l’entrée nord. La période de concertation grâce à ce site web se déroulera du 31 Juillet à fin Octobre.
         </p>
 
         <img
