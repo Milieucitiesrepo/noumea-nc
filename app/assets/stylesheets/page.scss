@@ -1,0 +1,36 @@
+header {
+  max-width: 600px;
+  margin: 0 auto;
+
+  .header-item {
+    display: inline-block;
+    width: calc(100%/3);
+    color: $secondary-color;
+    text-align: center;
+    font-size: $med-font;
+    border-bottom: 0px solid $primary-color;
+    transition: 200ms;
+    height: 50px;
+    line-height: 50px;
+
+    @media #{$small-and-down} {
+      font-size: $sm-font;
+    }
+
+    &:hover {
+      border-bottom: 5px solid $primary-color;
+    }
+  }
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+
+  a img {
+    height: 60px;
+    margin: 0 20px;
+    object-fit: contain;
+  }
+}
