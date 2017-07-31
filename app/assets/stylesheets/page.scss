@@ -10,8 +10,8 @@ header {
     font-size: $med-font;
     border-bottom: 0px solid $primary-color;
     transition: 200ms;
-    height: 50px;
-    line-height: 50px;
+    height: 75px;
+    line-height: 75px;
 
     @media #{$small-and-down} {
       font-size: $sm-font;

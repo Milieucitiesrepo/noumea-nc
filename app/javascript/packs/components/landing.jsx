@@ -1,28 +1,21 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
+import Header from './header'
 
 export default class Landing extends Component {
   render() {
     return(
       <div className='container'>
-        <header>
-          <a href='#' className='header-item'>Info</a>
-          <a href='#' className='header-item'>Guide D'Utilisation</a>
-          <a href='#' className='header-item'>Partcipez</a>
-        </header>
+        <Header />
 
-        <div className='logos'>
-          <a href='https://www.noumea.nc'>
-            <img src={require('../images/logo-noumea-m.jpg')} alt='Ville De Noumea' />
-          </a>
-          <a href='http://www.province-sud.nc/'>
-            <img src={require('../images/logo-provincesud.png')} alt='Province Sud' />
-          </a>
-          <a href='https://gouv.nc/'>
-            <img src={require('../images/logo-nc.png')} alt='Nouvelle Caledonie' />
-          </a>
-        </div>
-
+        <a href='https://www.noumea.nc' className='block margin-bottom-25 margin-top-25'>
+          <img
+            src={require('../images/logo-noumea-m.jpg')}
+            alt='Ville De Noumea'
+            className='height-80 block margin-center object-fit-contain'
+          />
+        </a>
+        
         <h3 className='center-align margin-0'>ENTRÉE NORD</h3>
 
         <p className='max-width-400 margin-center center-align padding-25'>
@@ -59,19 +52,19 @@ export default class Landing extends Component {
               <h4 className='white-color center-align'>Thématiques</h4>
               <img
                 src={require('../images/theme-immediat-m.svg')}
-                alt="Usage immédiat du CHT Gaston-Bourret et de son parking: Prenez part à la première étape de la transformation de l’entrée nord !"
+                alt='Usage immédiat du CHT Gaston-Bourret et de son parking: Prenez part à la première étape de la transformation de l’entrée nord !'
               />
               <img
                 src={require('../images/theme-circulations-m.svg')}
-                alt="Circulations: Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, bicyclettes, bus, néobus et petit train autour de l’entrée nord ! "
+                alt='Circulations: Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, bicyclettes, bus, néobus et petit train autour de l’entrée nord ! '
               />
               <img
                 src={require('../images/theme-public-m.svg')}
-                alt="Espaces publics et espaces verts: Proposez des espaces publics et espaces verts qui auront la capacité d’améliorer votre qualité de vie !"
+                alt='Espaces publics et espaces verts: Proposez des espaces publics et espaces verts qui auront la capacité d’améliorer votre qualité de vie !'
               />
               <img
                 src={require('../images/theme-bati-m.svg')}
-                alt="Bâti: Partagez vos opinions au sujet des bâtiments neufs ou à rénover que nous suggérons pour l’entrée nord ! "
+                alt='Bâti: Partagez vos opinions au sujet des bâtiments neufs ou à rénover que nous suggérons pour l’entrée nord ! '
               />
             </div>
           </div>
@@ -82,48 +75,48 @@ export default class Landing extends Component {
         <img
           src={require(`../images/timeline-desktop.svg`)}
           className='padding-top-20 block margin-center object-fit-contain max-width-100-pct width-600 sm-padding-20'
-          alt="L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa."
+          alt='L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa.'
         />
 
-        <div className="center-align padding-top-50">
-          <a href="/guide" className="btn">Guide D'Utilisation</a>
+        <div className='center-align padding-top-50'>
+          <a href='/guide' className='btn'>Guide D'Utilisation</a>
         </div>
 
 
-        <div className="line"></div>
+        <div className='line'></div>
 
         <h4 className='center-align'>Avec le soutien</h4>
 
 
 
-        <a href="http://www.noumeaport.nc">
+        <a href='http://www.noumeaport.nc'>
           <img
             src={require('../images/logo-panc.svg')}
-            alt="Port Autonome"
+            alt='Port Autonome'
             className='height-100 block margin-center'
           />
         </a>
 
-        <div className="line"></div>
+        <div className='line'></div>
 
         <h4 className='center-align'>Les partenaires</h4>
 
-        <div className="flex justify-center padding-bottom-50 sm-flex-col align-items-center">
-          <a href="http://www.azizachaouniprojects.com/">
+        <div className='flex justify-center padding-bottom-50 sm-flex-col align-items-center'>
+          <a href='http://www.azizachaouniprojects.com/'>
             <img
               src={require(`../images/logo-acp.svg`)}
               className='height-60 margin-left-20 margin-right-20'
             />
           </a>
-          <a href="http://www.caissedesdepots.fr/">
+          <a href='http://www.caissedesdepots.fr/'>
             <img
               src={require(`../images/logo-scet.png`)}
               className='height-60 margin-left-20 margin-right-20'
             />
           </a>
-          <a href="https://milieu.io/">
+          <a href='https://milieu.io/'>
             <img
-              src={require(`../images/logo-milieu.png`)}
+              src={require(`../images/logo-milieu.svg`)}
               className='height-60 margin-left-20 margin-right-20'
             />
           </a>
@@ -134,9 +127,7 @@ export default class Landing extends Component {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  render(
-    <Landing />,
-    document.body.appendChild(document.createElement('div')),
-  )
+document.addEventListener('turbolinks:load', () => {
+  const landing = document.querySelector('#landing');
+  landing && render(<Landing/>, landing)
 })

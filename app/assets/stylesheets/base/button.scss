@@ -10,6 +10,7 @@
   color: $white;
   background-color: $primary-color;
   box-sizing: border-box;
+  border: 2px solid $dark-primary-color;
 
   &:hover {
     background-color: $dark-primary-color;
