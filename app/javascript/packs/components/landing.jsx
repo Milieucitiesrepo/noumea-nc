@@ -8,20 +8,6 @@ export default class Landing extends Component {
       <div className='container'>
         <Header />
 
-        <a href='https://www.noumea.nc' className='block margin-bottom-25 margin-top-25'>
-          <img
-            src={require('../images/logo-noumea-m.jpg')}
-            alt='Ville De Noumea'
-            className='height-80 block margin-center object-fit-contain'
-          />
-        </a>
-        
-        <h3 className='center-align margin-0'>ENTRÉE NORD</h3>
-
-        <p className='max-width-400 margin-center center-align padding-25'>
-          Un projet collaboratif de concertation citoyenne pour la nouvelle entrée nord du centre-ville de Nouméa
-        </p>
-
         <div className='flex justify-center video-wrapper'>
           <iframe src='https://www.youtube.com/embed/irNSpO3uNl0?rel=0&amp;controls=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
         </div>
@@ -75,7 +61,7 @@ export default class Landing extends Component {
         <img
           src={require(`../images/timeline-desktop.svg`)}
           className='padding-top-20 block margin-center object-fit-contain max-width-100-pct width-600 sm-padding-20'
-          alt='L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa.'
+          alt="L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa."
         />
 
         <div className='center-align padding-top-50'>

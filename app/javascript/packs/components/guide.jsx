@@ -7,6 +7,7 @@ export default class Guide extends Component {
     return(
       <div className='container'>
         <Header />
+        
       </div>
     )
   }
