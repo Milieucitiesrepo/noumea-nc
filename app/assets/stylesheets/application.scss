@@ -1,5 +1,9 @@
-@import "variables";
-@import "colorswatches";
-@import "typography";
-@import "base";
+@import "base/variables";
+@import "base/colorswatches";
+@import "base/typography";
+@import "base/responsive";
+@import "base/grid";
+@import "base/base";
+@import "base/button";
+
 @import "page";
