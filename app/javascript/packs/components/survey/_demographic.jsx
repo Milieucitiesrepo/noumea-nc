@@ -13,7 +13,7 @@ export default class Demographic extends Component {
 
   render() {
     return(
-      <div className={this.props.hide ? 'hide' : '' }>
+      <div className={this.props.hide ? 'hide' : 'container' }>
         <div className='row'>
           <div className='col s12 m6'>
             <h1 className='margin-top-0'>Information Démographique</h1>
@@ -35,7 +35,7 @@ export default class Demographic extends Component {
             {
               this.state.livesInNoumea &&
               <div className='row'>
-                <div className='col s12 m6'>
+                <div className='col s12 m8'>
                   <label htmlFor='quartier'>Votre quartier</label>
                   <input type='text' id='quartier' name='user[neighboorhood]'/>
                 </div>
@@ -45,15 +45,15 @@ export default class Demographic extends Component {
             {
               this.state.livesInNoumea &&
               <div className='row'>
-                <div className='col s12'>
+                <div className='col s12 m8'>
                   <label htmlFor='combien'>Cela fait combien de temps que vous vivez dans votre quartier?</label>
-                  <input className='width-100' type='number' id='combien' name='user[months_lived_in_noumea]'/>
+                  <input placeholder='2 ans' type='text' id='combien' name='user[months_lived_in_noumea]'/>
                 </div>
               </div>
             }
 
             <div className='row'>
-              <div className='col s12 m6'>
+              <div className='col s12 m8'>
                 <label htmlFor='email'>Votre email</label>
                 <input type='text' id='email' name='user[email]'/>
               </div>

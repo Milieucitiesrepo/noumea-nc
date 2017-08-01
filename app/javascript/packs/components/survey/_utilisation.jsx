@@ -12,6 +12,9 @@ export default class Utilisation extends Component {
   }
 
   render() {
+    const commentQuestion = this.props.questions.find(question => question.question_number === 'q2-comment');
+    const commentIndex = this.props.questions.indexOf(commentQuestion);
+
     return(
       <div className={this.props.hide ? 'hide' : '' }>
         <div className='row'>
@@ -54,6 +57,15 @@ export default class Utilisation extends Component {
                       )
                     }
                   })
+                }
+
+                {
+                  this.props.questions.length > 0 &&
+                  <div className='padding-top-20 max-width-300'>
+                    <h5 className='padding-bottom-20 bold margin-0'>Comment</h5>
+                    <input name={`user[answers_attributes][${commentIndex}][question_id]`} value={commentQuestion.id} type='hidden' />
+                    <textarea name={`user[answers_attributes][${commentIndex}][body]`} />
+                  </div>
                 }
 
                 <div className='padding-top-25'>

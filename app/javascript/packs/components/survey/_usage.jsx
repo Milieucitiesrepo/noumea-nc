@@ -12,6 +12,9 @@ export default class Usage extends Component {
   }
 
   render() {
+    const commentQuestion = this.props.questions.find(question => question.question_number === 'q1-comment');
+    const commentIndex = this.props.questions.indexOf(commentQuestion);
+
     return(
       <div className={this.props.hide ? 'hide' : '' }>
         <div className='row'>
@@ -43,7 +46,7 @@ export default class Usage extends Component {
                   this.props.questions.map((question, i) => {
                     if(VALID_QUESTION_NUMBERS.includes(question.question_number)) {
                       return(
-                        <div className='question' key={question.id}>
+                        <div key={question.id}>
                           <div className='flex align-items-center padding-top-20 padding-bottom-20'>
                             <img src={question.url} className='height-15' />
                             <h5 className='padding-left-15 bold margin-0' dangerouslySetInnerHTML={{__html: question.body}}></h5>
@@ -54,6 +57,15 @@ export default class Usage extends Component {
                       )
                     }
                   })
+                }
+
+                {
+                  this.props.questions.length > 0 &&
+                  <div className='padding-top-20 max-width-300'>
+                    <h5 className='padding-bottom-20 bold margin-0'>Comment</h5>
+                    <input name={`user[answers_attributes][${commentIndex}][question_id]`} value={commentQuestion.id} type='hidden' />
+                    <textarea name={`user[answers_attributes][${commentIndex}][body]`} />
+                  </div>
                 }
 
                 <div className='padding-top-25'>

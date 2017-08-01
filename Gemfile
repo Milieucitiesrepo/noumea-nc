@@ -20,7 +20,7 @@ gem 'rabl', '~> 0.13.1'
 gem 'dotenv-rails', '~> 2.2.1'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug', '~> 3.4.0'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end

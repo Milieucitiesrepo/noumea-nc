@@ -12,6 +12,7 @@ header {
     transition: 200ms;
     height: 75px;
     line-height: 75px;
+    box-sizing: border-box;
 
     @media #{$small-and-down} {
       font-size: $sm-font;
