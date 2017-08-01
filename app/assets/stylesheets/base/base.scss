@@ -129,7 +129,7 @@ a {
   }
 
   .width-#{$i * 5} {
-    width: #{$i * 5}px;
+    width: #{$i * 5}px !important;
   }
 
   .max-width-#{$i * 5} {

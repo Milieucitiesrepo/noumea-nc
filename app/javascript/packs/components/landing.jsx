@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import Header from './header'
-import Footer from './footer'
-import Share from './share'
+import Header from './_header'
+import Footer from './_footer'
+import Share from './_share'
 
 export default class Landing extends Component {
   render() {
@@ -17,8 +17,8 @@ export default class Landing extends Component {
 
         <div className='row padding-top-50'>
           <div className='col no-pad m4 s12 offset-m1'>
-            <h3 className='center-align padding-bottom-10 max-width-475 margin-center'>VISION POUR L’ENTRÉE NORD</h3>
-            <h5 className='center-align max-width-475 margin-center'>Proposition du scénario d’aménagement</h5>
+            <h1 className='center-align padding-bottom-10 max-width-475 margin-center'>VISION POUR L’ENTRÉE NORD</h1>
+            <h3 className='center-align max-width-475 margin-center'>Proposition du scénario d’aménagement</h3>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
               L’entrée nord du centre-ville de Nouméa est une zone caractérisée par l’ancien Centre Hospitalier Territorial Gaston-Bourret, son parking et la voie express #1. C’est actuellement un no man’s land, coupé du littoral et du centre-ville pourtant si proches, qui marque la baie de la Grande Rade d’un aspect désertique, vide et fantôme... Une baie jusque là délaissée, alors que son panorama est la première image de Nouméa que perçoivent la plupart des visiteurs. Une baie ignorée alors qu’elle est adjacente à deux sources majeurs de l’économie néo-caledonienne: la Société Le Nickel et le Port Autonome de la Nouvelle Calédonie.
@@ -37,8 +37,8 @@ export default class Landing extends Component {
             </p>
           </div>
           <div className='col no-pad m6 s12 offset-m1 sm-padding-top-25'>
-            <div className='themes padding-20 flex justify-center flex-col'>
-              <h4 className='white-color center-align'>Thématiques</h4>
+            <div className='themes padding-bottom-50 padding-right-20 padding-left-20 flex justify-center flex-col'>
+              <h1 className='white-color center-align'>Thématiques</h1>
               <img
                 src={require('../images/theme-immediat-m.svg')}
                 alt='Usage immédiat du CHT Gaston-Bourret et de son parking: Prenez part à la première étape de la transformation de l’entrée nord !'
@@ -59,7 +59,7 @@ export default class Landing extends Component {
           </div>
         </div>
 
-        <h3 className='center-align'>À PROPOS DE LA CONCERTATION</h3>
+        <h1 className='center-align'>À PROPOS DE LA CONCERTATION</h1>
 
         <p className='padding-right-20 padding-left-20 margin-0 hide-on-med-and-up'>
           Votre participation peut influencer les futurs aménagements de votre ville, et en l’occurence la vision urbaine de l’entrée nord. Grâce à ce site web la concertation se déroulera d’août à octobre.
@@ -75,7 +75,13 @@ export default class Landing extends Component {
 
         <img
           src={require(`../images/timeline-desktop.svg`)}
-          className='padding-top-20 block margin-center object-fit-contain max-width-100-pct width-600 sm-padding-20'
+          className='hide-on-small-only padding-top-20 block margin-center object-fit-contain max-width-100-pct width-900'
+          alt="L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa."
+        />
+
+        <img
+          src={require(`../images/timeline-mobile.svg`)}
+          className='hide-on-med-and-up block object-fit-contain width-100-pct padding-20'
           alt="L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa."
         />
 

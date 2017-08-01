@@ -9,3 +9,4 @@
 
 import './components/landing.jsx'
 import './components/guide.jsx'
+import './components/survey/survey.jsx'

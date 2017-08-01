@@ -5,4 +5,7 @@ Rails.application.routes.draw do
     get :guide
     get :participez
   end
+
+  resources :questions, only: [:index]
+  resources :users, only: [:index, :create]
 end

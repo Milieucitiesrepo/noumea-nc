@@ -65,3 +65,35 @@ header {
     }
   }
 }
+
+.info {
+  display: flex;
+
+  @media #{$small-and-down} {
+    padding-top: 25px;
+  }
+
+  .icons {
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+    padding-left: 10px;
+
+    @media #{$small-and-down} {
+      width: 50px;
+      max-width: 50px;
+      min-width: 50px;
+      padding-left: 10px;
+    }
+  }
+
+  .content {
+    padding-left: 25px;
+    width: calc(100% - 100px);
+  }
+}
+
+.map {
+  width: calc(100% - 24px);
+  position: absolute;
+}
