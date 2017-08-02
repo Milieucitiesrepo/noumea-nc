@@ -68,7 +68,7 @@ export default class Demographic extends Component {
 
             <div className='row'>
               <div className='col s12'>
-                <a href='#' onClick={this.props.onSubmit} className='btn'>Retour à la page "info"</a>
+                <a href='#' onClick={this.props.onSubmit} className='btn'>soumettre</a>
               </div>
             </div>
 

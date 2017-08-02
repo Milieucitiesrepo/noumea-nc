@@ -36,6 +36,10 @@
   margin-right: 20px;
   font-weight: 700;
 
+  @media #{$small-and-down} {
+    margin-bottom: 15px;
+  }
+
   &:hover {
     background-color: $dark-primary-color;
     color: $white;

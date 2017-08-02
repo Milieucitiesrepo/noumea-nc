@@ -36,7 +36,7 @@ export default class Survey extends Component {
       method: 'POST',
       body: new FormData(this.refs.form)
     }).then(() => {
-      alert('Merci d\'avoir participé!');
+      alert('Merci d\'avoir participé! Retour à la page "info"');
       Turbolinks.visit('/');
     })
   }

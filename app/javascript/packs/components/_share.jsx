@@ -6,11 +6,11 @@ export default class Share extends Component {
 
     return(
       <div className='share-social'>
-        <h6 className='bold margin-0'>Partager</h6>
+        <h6 className='bold margin-0'>Tweeter</h6>
         <a href={`https://twitter.com/intent/tweet?url=${url}`} className='icon'>
           <img src={require('../images/share-twt.svg')} alt='Share Twitter'/>
         </a>
-        <h6 className='bold margin-0'>Tweeter</h6>
+        <h6 className='bold margin-0'>Partager</h6>
         <a href={`http://www.facebook.com/sharer/sharer.php?u=${url}`} className='icon'>
           <img src={require('../images/share-fb.svg')} alt='Share Facebook'/>
         </a>
