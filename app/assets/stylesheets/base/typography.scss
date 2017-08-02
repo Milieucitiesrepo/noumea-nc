@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,500,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i');
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Avenir Next-Bold', 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: $med-font;
@@ -9,32 +9,59 @@
 }
 
 h1 {
-  font-size: $xlg-header-font;
+  font-size: 3rem;
+
+  @media #{$medium-only} {
+    font-size: 2.5rem;
+  }
 
   @media #{$small-and-down} {
-    font-size: $lg-header-font;
+    font-size: 2rem;
   }
 }
 
 h2 {
-  font-size: $lg-header-font;
+  font-size: 2.25rem;
+
+  @media #{$medium-only} {
+    font-size: 2rem;
+  }
 
   @media #{$small-and-down} {
-    font-size: $med-header-font;
+    font-size: 1.625rem;
   }
 }
 
 h3 {
-  font-size: $sm-header-font;
+  font-size: 1.75rem;
+
+  @media #{$medium-only} {
+    font-size: 1.5rem;
+  }
+
+  @media #{$small-and-down} {
+    font-size: 1.375rem;
+  }
 }
 
 h4 {
-  font-size: $xsm-header-font;
+  font-size: 1.375rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $dark-primary-color;
   font-weight: 500;
+}
+
+p {
+  font-size: $med-font;
 }
 
 /* Font Size */

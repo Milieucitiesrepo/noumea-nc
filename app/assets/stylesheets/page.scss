@@ -13,6 +13,7 @@ header {
     height: 75px;
     line-height: 75px;
     box-sizing: border-box;
+    font-weight: 700;
 
     @media #{$small-and-down} {
       font-size: $sm-font;
@@ -51,6 +52,8 @@ header {
   display: flex;
   flex-direction: column;
   z-index: 100;
+  max-width: 70px;
+  align-items: center;
 
   @media #{$small-and-down} {
     top: 0px;
@@ -78,8 +81,6 @@ header {
     width: 100px;
     max-width: 100px;
     min-width: 100px;
-    padding-left: 10px;
-
     @media #{$small-and-down} {
       width: 50px;
       max-width: 50px;
@@ -90,11 +91,64 @@ header {
 
   .content {
     padding-left: 25px;
-    width: calc(100% - 100px);
+  }
+}
+
+.questions {
+  padding-left: 125px;
+
+  .fixed-map {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0;
+    z-index: 10;
+    transition: 200ms;
+  }
+
+  .answers {
+    @media #{$large-and-up} {
+      height: auto !important;
+    }
+
+    @media #{$medium-and-down} {
+      overflow: scroll;
+    }
+  }
+
+  @media #{$medium-and-down} {
+    padding-left: 0;
+  }
+}
+
+.ratings {
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  :nth-child(2) {
+    transform: scale(0.7, 0.7);
+  }
+
+  :nth-child(3) {
+    transform: scale(0.7, 0.7);
+  }
+
+  img {
+    width: 30px;
   }
 }
 
 .map {
-  width: calc(100% - 24px);
-  position: absolute;
+  width: inherit;
+  position: fixed;
+  top: 100px;
+  box-sizing: border-box;
+  border: 2px solid $primary-color;
+}
+
+.scale {
+  transform: scale(1.5, 1.5);
 }

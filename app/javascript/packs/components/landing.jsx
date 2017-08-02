@@ -37,7 +37,7 @@ export default class Landing extends Component {
             </p>
           </div>
           <div className='col no-pad m6 s12 offset-m1 sm-padding-top-25'>
-            <div className='themes padding-bottom-50 padding-right-20 padding-left-20 flex justify-center flex-col'>
+            <div className='themes padding-bottom-50 padding-right-20 padding-left-20 flex justify-center flex-col align-items-center'>
               <h1 className='white-color center-align'>Thématiques</h1>
               <img
                 src={require('../images/theme-immediat-m.svg')}
@@ -45,16 +45,21 @@ export default class Landing extends Component {
               />
               <img
                 src={require('../images/theme-circulations-m.svg')}
-                alt='Circulations: Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, bicyclettes, bus, néobus et petit train autour de l’entrée nord ! '
+                className='margin-top-10'
+                alt='Circulations : Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, vélos, bus, néobus et petit train autour de l’entrée nord !'
               />
               <img
                 src={require('../images/theme-public-m.svg')}
-                alt='Espaces publics et espaces verts: Proposez des espaces publics et espaces verts qui auront la capacité d’améliorer votre qualité de vie !'
+                className='margin-top-10'
+                alt='Espaces publics et espaces verts : Proposez des espaces publics et espaces verts qui auront la capacité d’améliorer votre qualité de vie !'
               />
               <img
                 src={require('../images/theme-bati-m.svg')}
-                alt='Bâti: Partagez vos opinions au sujet des bâtiments neufs ou à rénover que nous suggérons pour l’entrée nord ! '
+                className='margin-top-10'
+                alt='Bâti : Partagez vos opinions au sujet des bâtiments neufs ou à réhabiliter que nous suggérons pour l’entrée nord !'
               />
+
+              <a href='/participez' className='btn margin-top-25 max-width-300'>Participez maintenant!</a>
             </div>
           </div>
         </div>
@@ -62,21 +67,21 @@ export default class Landing extends Component {
         <h1 className='center-align'>À PROPOS DE LA CONCERTATION</h1>
 
         <p className='padding-right-20 padding-left-20 margin-0 hide-on-med-and-up'>
-          Votre participation peut influencer les futurs aménagements de votre ville, et en l’occurence la vision urbaine de l’entrée nord. Grâce à ce site web la concertation se déroulera d’août à octobre.
+          Votre participation peut influencer les futurs aménagements de votre ville, et en l'occurence la vision urbaine de l'entrée nord. Grâce à ce site web la concertation se déroulera d’août à octobre.
         </p>
 
         <p className='padding-top-20 padding-right-20 padding-left-20 margin-0 hide-on-med-and-up'>
-          L’engagement civique est crucial. Vous pouvez donner votre avis sur l’avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la Ville de Nouméa.
+          L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la Ville de Nouméa.
         </p>
 
         <p className='padding-20 margin-0 hide-on-med-and-up'>
-          Le calendrier de l’exposition sera bientôt affiché. Vous pourrez y laisser votre avis, qui sera immédiatement transmis au site web.
+          Le calendrier de l'exposition sera bientôt affiché. Vous pourrez y laisser votre avis, qui sera immédiatement transmis au site web.
         </p>
 
         <img
           src={require(`../images/timeline-desktop.svg`)}
           className='hide-on-small-only padding-top-20 block margin-center object-fit-contain max-width-100-pct width-900'
-          alt="L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la municipalité de Nouméa."
+          alt="Votre participation peut influencer les futurs aménagements de votre ville, et en l'occurence la vision urbaine de l'entrée nord. Grâce à ce site web la concertation se déroulera d’août à octobre. L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la Ville de Nouméa. Le calendrier de l'exposition sera bientôt affiché. Vous pourrez y laisser votre avis, qui sera immédiatement transmis au site web."
         />
 
         <img
@@ -86,6 +91,7 @@ export default class Landing extends Component {
         />
 
         <div className='center-align padding-top-50'>
+          <a href='https://medium.com/entr%C3%A9e-nord-ville-de-noum%C3%A9a' className='btn-link'>Suivre les workshops ici</a>
           <a href='/guide' className='btn'>Guide D'Utilisation</a>
         </div>
 

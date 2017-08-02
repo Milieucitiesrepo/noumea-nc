@@ -10,10 +10,34 @@
   color: $white;
   background-color: $primary-color;
   box-sizing: border-box;
-  border: 2px solid $dark-primary-color;
+  border: 1.25px solid $dark-primary-color;
   text-align: center;
+  font-weight: 700;
 
   &:hover {
     background-color: $dark-primary-color;
+  }
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: 200ms;
+  color: $primary-color;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1.25px solid $dark-primary-color;
+  text-align: center;
+  margin-right: 20px;
+  font-weight: 700;
+
+  &:hover {
+    background-color: $dark-primary-color;
+    color: $white;
   }
 }

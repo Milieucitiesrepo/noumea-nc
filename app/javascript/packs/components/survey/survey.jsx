@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import SurveyIntro from './_intro'
 import SurveyUsage from './_usage'
 import SurveyUtilisation from './_utilisation'
 import SurveyCirculation from './_circulation'
@@ -12,7 +11,7 @@ import 'whatwg-fetch'
 export default class Survey extends Component {
   constructor(props) {
     super(props);
-    this.state = { theme: 'intro', questions: [] };
+    this.state = { theme: 'usage', questions: [] };
     this.changeTheme = (theme) => this._changeTheme(theme);
     this.handleSubmit = (e) => this._handleSubmit(e);
   }
@@ -37,7 +36,7 @@ export default class Survey extends Component {
       method: 'POST',
       body: new FormData(this.refs.form)
     }).then(() => {
-      alert('Thank you for completing the survey!');
+      alert('Merci d\'avoir participé!');
       Turbolinks.visit('/');
     })
   }
@@ -50,11 +49,10 @@ export default class Survey extends Component {
         <header className='hide-on-small-only padding-bottom-25'>
           <a href='/' className='header-item'>Info</a>
           <a href='/guide' className='header-item'>Guide D'Utilisation</a>
-          <a href='/participez' className='header-item'>Partcipez</a>
+          <a href='/participez' className='header-item'>Participez</a>
         </header>
 
         <form ref='form'>
-          <SurveyIntro changeTheme={this.changeTheme} hide={theme !== 'intro'} />
           <SurveyUsage changeTheme={this.changeTheme} questions={questions} hide={theme !== 'usage'} />
           <SurveyUtilisation changeTheme={this.changeTheme} questions={questions} hide={theme !== 'utilisation'} />
           <SurveyCirculation changeTheme={this.changeTheme} questions={questions} hide={theme !== 'circulation'} />

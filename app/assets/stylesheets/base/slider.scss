@@ -1,13 +1,11 @@
 input[type=range] {
   -webkit-appearance: none;
   border: 1px solid white;
-  width: 300px;
   background: transparent;
   background-color: transparent;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-  width: 300px;
   height: 5px;
   background: #ddd;
   border: none;

@@ -15,8 +15,8 @@ export default class Demographic extends Component {
     return(
       <div className={this.props.hide ? 'hide' : 'container' }>
         <div className='row'>
-          <div className='col s12 m6'>
-            <h1 className='margin-top-0'>Information Démographique</h1>
+          <div className='col s12 l6'>
+            <h2 className='margin-top-0 sm-padding-top-25'>Information Démographique</h2>
 
             <div className='row'>
               <div className='col s12'>
@@ -68,7 +68,7 @@ export default class Demographic extends Component {
 
             <div className='row'>
               <div className='col s12'>
-                <a href='#' onClick={this.props.onSubmit} className='btn'>Soumettre</a>
+                <a href='#' onClick={this.props.onSubmit} className='btn'>Retour à la page "info"</a>
               </div>
             </div>
 
