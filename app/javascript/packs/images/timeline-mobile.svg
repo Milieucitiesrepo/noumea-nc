@@ -145,19 +145,19 @@
                 <path d="M96.6222829,837.526354 C97.1545579,837.526354 97.688403,837.526354 98.043253,837.695823 C98.398103,838.034763 98.398103,838.544673 98.398103,839.222552 L114.377343,839.222552 C116.153164,839.222552 118.816109,838.882113 118.995104,839.900431 C119.170959,841.42716 114.554768,840.91875 114.022493,840.91875 L78.3349475,840.91875 C76.9139774,840.91875 73.1849123,841.25619 73.0074873,840.240871 C72.8300623,838.882113 75.8494274,839.222552 77.4462524,839.222552 L93.4270629,839.222552 C93.7819129,839.053082 93.4270629,838.204233 93.7819129,837.865293 C94.1367629,837.526354 94.6690379,837.526354 95.3787379,837.526354 C94.3141879,835.491215 97.3335531,835.491215 96.6222829,837.526354" id="Fill-321" fill="#A7A7A7"></path>
                 <path d="M74.1790412,844 L117,844 L117,869 L74,869 L74,844.520481 C74.1790412,844.173494 74.1790412,844 74.1790412,844" id="Fill-323" fill="#A7A7A7"></path>
                 <path d="M102.660953,872.73673 C103.015911,873.723325 104.082355,874.545488 104.969749,875.697971 C105.679664,876.686021 107.101065,877.837049 106.568629,878.989532 C104.969749,879.153965 104.082355,877.343752 103.19339,876.191269 C102.305996,875.040241 101.417031,873.723325 100.352158,872.73673 C97.1559683,873.230028 93.9582081,872.077545 91.4719339,872.73673 C90.2280115,873.065595 89.3406173,875.203218 88.4532232,876.191269 C87.3867796,877.343752 86.6768642,878.989532 85.0779842,878.989532 C84.5455477,877.672617 85.9653783,876.686021 86.6768642,875.697971 C87.5642584,874.709921 88.4532232,873.723325 89.1631385,872.73673 L76.5527178,872.73673 C75.3087954,872.73673 73.7114859,873.065595 73,872.241977 C73,871.914567 73,871.584247 73.3565283,871.419814 C85.9653783,870.926517 100.529637,871.090949 114.20493,871.090949 C114.916416,871.090949 119,870.596197 119,871.914567 C119,873.230028 112.962579,872.73673 111.363698,872.73673 L102.660953,872.73673 Z" id="Fill-325" fill="#A7A7A7"></path>
-                <text id="Phases" font-family="AvenirNext-Bold, Avenir Next" font-size="24" font-weight="bold" fill="#000000">
+                <text id="Phases" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="24" font-weight="bold" fill="#000000">
                     <tspan x="243" y="24">Phases</tspan>
                 </text>
-                <text id="Workshop-1" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
+                <text id="Workshop-1" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
                     <tspan x="48.8400002" y="91">Workshop 1</tspan>
                 </text>
-                <text id="(techniciens)" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#000000">
+                <text id="(techniciens)" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
                     <tspan x="50.998" y="109">(techniciens)</tspan>
                 </text>
-                <text id="Workshop-2" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
+                <text id="Workshop-2" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
                     <tspan x="52.8400002" y="304">Workshop 2</tspan>
                 </text>
-                <text id="(techniciens,-archit" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" fill="#000000">
+                <text id="(techniciens,-archit" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
                     <tspan x="64.5656975" y="328">(techniciens</tspan>
                     <tspan x="134.465698" y="328" letter-spacing="-0.271395">,</tspan>
                     <tspan x="137.434303" y="328"> </tspan>
@@ -167,49 +167,49 @@
                     <tspan x="100.136279" y="344" letter-spacing="-0.271395">,</tspan>
                     <tspan x="103.104884" y="344"> étudiants)</tspan>
                 </text>
-                <text id="Exposition-interacti" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#6390B1">
+                <text id="Exposition-interacti" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
                     <tspan x="57.608" y="916">Exposition</tspan>
                     <tspan x="57.72" y="938">interactive </tspan>
                 </text>
-                <text id="Geste-urbain-de-l’En" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#6390B1">
+                <text id="Geste-urbain-de-l’En" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
                     <tspan x="36.852" y="1217">Geste urbain de </tspan>
                     <tspan x="46.732" y="1239">l’Entrée Nord </tspan>
                     <tspan x="70.428" y="1261">ﬁnalisé </tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="93" y="266">Suggestions</tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="22" y="639">Suggestions</tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="22" y="966">Suggestions</tspan>
                 </text>
                 <polyline id="Stroke-341" stroke="#477393" stroke-width="0.972" stroke-dasharray="4.861,4.861" points="376 549 376 1015 248 1015"></polyline>
                 <polygon id="Fill-343" fill="#477393" points="258.454929 1009 259 1010.51608 248.090544 1014.49916 259 1018.48224 258.454929 1020 243 1014.49916"></polygon>
-                <text id="Web-App" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold" letter-spacing="-0.432000041" fill="#6390B1">
+                <text id="Web-App" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" letter-spacing="-0.432000041" fill="#6390B1">
                     <tspan x="350.398" y="537">Web App</tspan>
                 </text>
-                <g id="Group-347" transform="translate(293.000000, 256.000000)" font-size="16" font-family="AvenirNext-Bold, Avenir Next" letter-spacing="-0.703999996" fill="#000000" font-weight="bold">
+                <g id="Group-347" transform="translate(293.000000, 256.000000)" font-size="16" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" letter-spacing="-0.703999996" fill="#000000" font-weight="bold">
                     <text id="Public-+-Parties">
                         <tspan x="30.0159998" y="12.6029919">P</tspan>
                         <tspan x="38.8639998" y="12.6029919" letter-spacing="-0.938666642">ublic + Parties</tspan>
                     </text>
                 </g>
-                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#000000">
+                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
                     <tspan x="332.629418" y="286">p</tspan>
                     <tspan x="343.141418" y="286" letter-spacing="-0.162837">r</tspan>
                     <tspan x="349.026582" y="286">enantes</tspan>
                 </text>
                 <path d="M96,764 L96,821" id="Stroke-353" stroke="#000000" stroke-width="0.972" stroke-dasharray="4.861,4.861"></path>
                 <polygon id="Fill-355" fill="#000000" points="90 809.546679 91.5972044 809 95.4992155 819.909456 99.4027956 809 101 809.546679 95.4992155 825"></polygon>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="271" y="1029">Suggestions</tspan>
                 </text>
-                <text id="Public-+-Parties" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" letter-spacing="-0.703999996" fill="#000000">
+                <text id="Public-+-Parties" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.703999996" fill="#000000">
                     <tspan x="47.336" y="673">Public + Parties</tspan>
                 </text>
-                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" fill="#000000">
+                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
                     <tspan x="58.6294185" y="689">p</tspan>
                     <tspan x="69.1414185" y="689" letter-spacing="-0.162837">r</tspan>
                     <tspan x="75.0265815" y="689">enantes</tspan>
