@@ -41,6 +41,11 @@ export default class Guide extends Component {
 
         <Footer />
 
+        <header className='hide-on-med-and-up'>
+          <a href='/' className='header-item width-25-pct'>Info</a>
+          <a href='/guide' className='header-item width-50-pct'>Guide d’utilisation</a>
+          <a href='/participez' className='header-item width-25-pct'>Participer</a>
+        </header>
       </div>
     )
   }

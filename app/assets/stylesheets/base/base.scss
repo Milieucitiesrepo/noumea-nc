@@ -101,7 +101,7 @@ a {
   }
 
   .width-#{$i * 5}-pct {
-    width: percentage($i * 0.05);
+    width: percentage($i * 0.05) !important;
   }
 
   .max-width-#{$i * 5}-pct {
