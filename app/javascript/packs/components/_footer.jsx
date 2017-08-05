@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
     return(
-      <div>
+      <div className='footer'>
         <div className='line'></div>
 
         <h4 className='center-align'>Avec le soutien</h4>

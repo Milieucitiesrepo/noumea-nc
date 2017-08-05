@@ -1,25 +1,51 @@
+.header-container {
+  @media #{$medium-and-up} {
+    padding-top: 75px;
+  }
+}
+
 header {
-  max-width: 600px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  background-color: #f7f7f7;
+  position: fixed;
+  width: 100%;
+
+
+  @media #{$medium-and-up} {
+    top: 0;
+    left: 0;
+  }
+
+  @media #{$small-and-down} {
+    bottom: 0;
+    left: 0;
+  }
 
   .header-item {
     display: inline-block;
-    width: calc(100%/3);
-    color: $secondary-color;
+    width: 200px;
+    max-width: calc(100%/3);
+    color: $dark-primary-color;
     text-align: center;
     font-size: $med-font;
     border-bottom: 0px solid $primary-color;
     transition: 200ms;
     height: 75px;
-    line-height: 75px;
-    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
+    box-sizing: content-box;
+    border-bottom: 5px solid #f7f7f7;
 
     @media #{$small-and-down} {
       font-size: $sm-font;
     }
 
     &:hover {
+      height: 75px;
       border-bottom: 5px solid $primary-color;
     }
   }
@@ -35,7 +61,7 @@ header {
 
 .share-social {
   position: fixed;
-  top: 75px;
+  top: 100px;
   right: 20px;
   display: flex;
   flex-direction: column;
@@ -44,9 +70,9 @@ header {
   align-items: center;
 
   @media #{$small-and-down} {
-    top: 0px;
-    right: 0px;
-    transform: scale(0.75, 0.75);
+    top: -80px;
+    right: -10px;
+    transform: scale(0.4, 0.4);
   }
 
   .icon {
@@ -129,6 +155,12 @@ header {
   }
 }
 
+.footer {
+  @media #{$small-and-down} {
+    padding-bottom: 75px;
+  }
+}
+
 .map {
   width: inherit;
   position: fixed;
@@ -139,4 +171,10 @@ header {
 
 .scale {
   transform: scale(1.5, 1.5);
+}
+
+.survey {
+  @media #{$medium-and-up} {
+    padding-top: 100px;
+  }
 }

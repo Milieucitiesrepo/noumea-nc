@@ -15,11 +15,11 @@ export default class Guide extends Component {
 
         <h1 className='center-align margin-0'>Guide d’utilisation</h1>
 
-        <p className='margin-center max-width-650 center-align padding-25'>
+        <p className='margin-center max-width-650 padding-25'>
           L'engagement civique est crucial. Vous pouvez donner votre avis sur l'avenir de votre ville durant des consultations publiques ou bien en utilisant ce site web initié par la Ville de Nouméa. Votre participation peut influencer les futurs aménagements de votre ville, et en l'occurence la vision urbaine de l'Entrée Nord.
         </p>
 
-        <p className='margin-center max-width-650 center-align padding-25'>
+        <p className='margin-center max-width-650 padding-25'>
           Participez à la municipalité ou dans votre maison de quartier à l'exposition sur l'aménagement de l'Entrée Nord. L'exposition a été conçue pour être interactive, vous pourrez y donner votre avis en dessinant directement sur une carte. Cliquez ici pour le calendrier de l'exposition. Votre avis sera de suite envoyés au site web.
         </p>
 

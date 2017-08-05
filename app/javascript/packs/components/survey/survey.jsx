@@ -45,8 +45,8 @@ export default class Survey extends Component {
     const { questions, theme } = this.state;
 
     return(
-      <div>
-        <header className='hide-on-small-only padding-bottom-25'>
+      <div className='survey'>
+        <header className='hide-on-small-only'>
           <a href='/' className='header-item'>Info</a>
           <a href='/guide' className='header-item'>Guide D'Utilisation</a>
           <a href='/participez' className='header-item'>Participez</a>

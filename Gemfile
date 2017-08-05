@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'puma', '~> 3.9.1'
 gem 'rails', '5.1.2'
 gem 'pg', '~> 0.21.0'
+gem 'pkg-config'
 
 # Asset Compilers
 gem 'sass-rails', '~> 5.0.6'

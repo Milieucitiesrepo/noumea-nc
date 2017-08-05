@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="953px" height="1257px" viewBox="0 0 953 1257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="970px" height="1257px" viewBox="0 0 970 1257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Group 11</title>
     <desc>Created with Sketch.</desc>
@@ -7,25 +7,25 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Landing-Screen--desktop" transform="translate(-224.000000, -2238.000000)">
             <g id="Group-11" transform="translate(224.000000, 2233.000000)">
-                <text id="Votre-participation" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
-                    <tspan x="702" y="169">Votre participation peut </tspan>
-                    <tspan x="702" y="188">influencer les futurs </tspan>
-                    <tspan x="702" y="207">aménagements de votre ville, et </tspan>
-                    <tspan x="702" y="226">en l'occurence la vision urbaine de </tspan>
-                    <tspan x="702" y="245">l’Entrée Nord. Grâce à ce site web </tspan>
-                    <tspan x="702" y="264">la concertation se déroulera </tspan>
-                    <tspan x="702" y="283">d’août à octobre.</tspan>
+                <text id="Votre-participation" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="708" y="169">Votre participation peut </tspan>
+                    <tspan x="708" y="188">influencer les futurs </tspan>
+                    <tspan x="708" y="207">aménagements de votre ville, et </tspan>
+                    <tspan x="708" y="226">en l'occurence la vision urbaine de </tspan>
+                    <tspan x="708" y="245">l’Entrée Nord. Grâce à ce site web </tspan>
+                    <tspan x="708" y="264">la concertation se déroulera </tspan>
+                    <tspan x="708" y="283">d’août à octobre.</tspan>
                 </text>
-                <text id="L'engagement-civique" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
-                    <tspan x="700" y="536">L'engagement civique est crucial. </tspan>
-                    <tspan x="700" y="555">Vous pouvez donner votre avis sur </tspan>
-                    <tspan x="700" y="574">l'avenir de votre ville durant des </tspan>
-                    <tspan x="700" y="593">consultations publiques ou bien </tspan>
-                    <tspan x="700" y="612">en utilisant ce site web initié par </tspan>
-                    <tspan x="700" y="631">la Ville de Nouméa. </tspan>
+                <text id="L'engagement-civique" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="708" y="536">L'engagement civique est crucial. </tspan>
+                    <tspan x="708" y="555">Vous pouvez donner votre avis sur </tspan>
+                    <tspan x="708" y="574">l'avenir de votre ville durant des </tspan>
+                    <tspan x="708" y="593">consultations publiques ou bien </tspan>
+                    <tspan x="708" y="612">en utilisant ce site web initié par </tspan>
+                    <tspan x="708" y="631">la Ville de Nouméa. </tspan>
                 </text>
-                <path d="M690,142.5 C688.619288,142.5 687.5,143.619288 687.5,145 L687.5,299.18148 C687.5,300.562192 688.619288,301.68148 690,301.68148 L700.117122,301.68148 C700.469013,301.68148 700.818893,301.734548 701.154958,301.838892 C703.001018,302.412073 704.032891,304.373255 703.45971,306.219316 L696.927043,327.259274 C696.634819,328.200449 696.922781,329.225483 697.662379,329.87679 C698.698578,330.78929 700.278311,330.689012 701.190811,329.652812 L724.777787,302.868362 C725.442241,302.113834 726.399082,301.68148 727.404474,301.68148 L950,301.68148 C951.380712,301.68148 952.5,300.562192 952.5,299.18148 L952.5,145 C952.5,143.619288 951.380712,142.5 950,142.5 L690,142.5 Z" id="Rectangle-26" stroke="#979797"></path>
-                <path d="M690,482.5 C688.619288,482.5 687.5,483.619288 687.5,485 L687.5,618.939987 C687.5,620.320699 688.619288,621.439987 690,621.439987 L696.604593,621.439987 C697.087033,621.439987 697.564263,621.539725 698.006322,621.732939 C699.777526,622.507093 700.585794,624.570513 699.81164,626.341717 L692.530742,642.999842 C692.152041,643.866279 692.294593,644.872237 692.899111,645.599345 C693.78181,646.661045 695.358057,646.806155 696.419758,645.923456 L724.895547,622.248657 C725.524092,621.726084 726.315717,621.439987 727.133122,621.439987 L950,621.439987 C951.380712,621.439987 952.5,620.320699 952.5,618.939987 L952.5,485 C952.5,483.619288 951.380712,482.5 950,482.5 L690,482.5 Z" id="Rectangle-26-Copy" stroke="#979797" transform="translate(820.000000, 564.500000) scale(1, -1) translate(-820.000000, -564.500000) "></path>
+                <path d="M690,142.500164 C688.619288,142.500164 687.5,143.619452 687.5,145.000164 L687.5,299.196204 C687.5,300.576916 688.619288,301.696204 690,301.696204 L701.138147,301.696204 C701.511128,301.696204 701.881712,301.755822 702.235873,301.872802 C704.071337,302.47906 705.067806,304.458466 704.461549,306.29393 L697.368302,327.768975 C697.062853,328.693732 697.322235,329.711699 698.032971,330.377529 C699.040595,331.321488 700.622665,331.269878 701.566625,330.262254 L727.290609,302.803339 C727.952321,302.096998 728.876985,301.696204 729.844859,301.696204 L967,301.696204 C968.380712,301.696204 969.5,300.576916 969.5,299.196204 L969.5,145.000164 C969.5,143.619452 968.380712,142.500164 967,142.500164 L690,142.500164 Z" id="Rectangle-26" stroke="#979797"></path>
+                <path d="M690,482.448163 C688.619288,482.448163 687.5,483.567451 687.5,484.948163 L687.5,618.626542 C687.5,620.007254 688.619288,621.126542 690,621.126542 L697.389495,621.126542 C697.900166,621.126542 698.404651,621.238291 698.867551,621.453948 C700.619726,622.270256 701.378397,624.352422 700.562089,626.104598 L692.716932,642.943947 C692.320364,643.795166 692.43426,644.796823 693.011812,645.537278 C693.860992,646.625974 695.431951,646.82014 696.520647,645.97096 L727.423549,621.86678 C728.038559,621.387074 728.796183,621.126542 729.576155,621.126542 L967,621.126542 C968.380712,621.126542 969.5,620.007254 969.5,618.626542 L969.5,484.948163 C969.5,483.567451 968.380712,482.448163 967,482.448163 L690,482.448163 Z" id="Rectangle-26-Copy" stroke="#979797" transform="translate(828.500000, 564.474000) scale(1, -1) translate(-828.500000, -564.474000) "></path>
                 <path d="M3,670.5 C1.61928813,670.5 0.5,671.619288 0.5,673 L0.5,806.939987 C0.5,808.320699 1.61928813,809.439987 3,809.439987 L9.60459283,809.439987 C10.0870327,809.439987 10.5642632,809.539725 11.0063225,809.732939 C12.7775259,810.507093 13.5857943,812.570513 12.8116404,814.341717 L5.53074188,830.999842 C5.15204132,831.866279 5.29459327,832.872237 5.89911128,833.599345 C6.78181013,834.661045 8.35805727,834.806155 9.4197578,833.923456 L37.8955472,810.248657 C38.5240922,809.726084 39.3157169,809.439987 40.133122,809.439987 L263,809.439987 C264.380712,809.439987 265.5,808.320699 265.5,806.939987 L265.5,673 C265.5,671.619288 264.380712,670.5 263,670.5 L3,670.5 Z" id="Rectangle-26-Copy-2" stroke="#979797" transform="translate(133.000000, 752.500000) scale(1, -1) rotate(-180.000000) translate(-133.000000, -752.500000) "></path>
                 <path d="M621,951 L626,951" id="Stroke-175" stroke="#477393" stroke-width="0.972"></path>
                 <path d="M627.226079,465.536541 C629.044178,465.357233 629.044178,462.126503 626.681132,462.664429 C624.863034,463.024633 625.58963,465.536541 627.226079,465.536541 M626.499483,461.050651 C631.043925,460.331829 631.225574,467.510524 626.681132,466.971011 C623.044936,466.612393 623.228192,461.588577 626.499483,461.050651" id="Fill-311" fill="#A7A7A7"></path>
@@ -80,16 +80,16 @@
                 <path d="M345.5,124 C367.31566,124 385,141.685927 385,163.5 C385,185.31566 367.31566,203 345.5,203 C323.68434,203 306,185.31566 306,163.5 C306,141.685927 323.68434,124 345.5,124 Z" id="Stroke-85" stroke="#000000" stroke-width="1.5"></path>
                 <path d="M348.5,527 C370.31566,527 388,544.68434 388,566.5 C388,588.31566 370.31566,606 348.5,606 C326.68434,606 309,588.31566 309,566.5 C309,544.68434 326.68434,527 348.5,527 Z" id="Stroke-87" stroke="#000000" stroke-width="1.5"></path>
                 <path d="M348.5,817 C370.31566,817 388,834.685927 388,856.5 C388,878.31566 370.31566,896 348.5,896 C326.68434,896 309,878.31566 309,856.5 C309,834.685927 326.68434,817 348.5,817 Z" id="Stroke-89" stroke="#000000" stroke-width="1.5"></path>
-                <text id="1" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
+                <text id="1" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
                     <tspan x="487" y="178">1</tspan>
                 </text>
-                <text id="2" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
+                <text id="2" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
                     <tspan x="487" y="495">2</tspan>
                 </text>
-                <text id="4" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
+                <text id="4" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
                     <tspan x="486" y="1178">4</tspan>
                 </text>
-                <text id="3" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
+                <text id="3" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="36" font-weight="bold" fill="#6390B1">
                     <tspan x="488" y="871">3</tspan>
                 </text>
                 <path d="M296.575144,565 L289.418778,565 L286.018595,565 C278.504649,565 276,570.70014 276,577.666044 L276,579.24965 L276,590.333489 L276,609.333956 C276,616.29986 278.681857,622 286.018595,622 L292.817379,622 L478,622" id="Stroke-165" stroke="#477393" stroke-width="0.972" stroke-dasharray="4.926,4.926"></path>
@@ -165,19 +165,19 @@
                 <path d="M350.622283,837.526354 C351.154558,837.526354 351.688403,837.526354 352.043253,837.695823 C352.398103,838.034763 352.398103,838.544673 352.398103,839.222552 L368.377343,839.222552 C370.153164,839.222552 372.816109,838.882113 372.995104,839.900431 C373.170959,841.42716 368.554768,840.91875 368.022493,840.91875 L332.334947,840.91875 C330.913977,840.91875 327.184912,841.25619 327.007487,840.240871 C326.830062,838.882113 329.849427,839.222552 331.446252,839.222552 L347.427063,839.222552 C347.781913,839.053082 347.427063,838.204233 347.781913,837.865293 C348.136763,837.526354 348.669038,837.526354 349.378738,837.526354 C348.314188,835.491215 351.333553,835.491215 350.622283,837.526354" id="Fill-321" fill="#A7A7A7"></path>
                 <path d="M328.179041,844 L371,844 L371,869 L328,869 L328,844.520481 C328.179041,844.173494 328.179041,844 328.179041,844" id="Fill-323" fill="#A7A7A7"></path>
                 <path d="M356.660953,872.73673 C357.015911,873.723325 358.082355,874.545488 358.969749,875.697971 C359.679664,876.686021 361.101065,877.837049 360.568629,878.989532 C358.969749,879.153965 358.082355,877.343752 357.19339,876.191269 C356.305996,875.040241 355.417031,873.723325 354.352158,872.73673 C351.155968,873.230028 347.958208,872.077545 345.471934,872.73673 C344.228011,873.065595 343.340617,875.203218 342.453223,876.191269 C341.38678,877.343752 340.676864,878.989532 339.077984,878.989532 C338.545548,877.672617 339.965378,876.686021 340.676864,875.697971 C341.564258,874.709921 342.453223,873.723325 343.163138,872.73673 L330.552718,872.73673 C329.308795,872.73673 327.711486,873.065595 327,872.241977 C327,871.914567 327,871.584247 327.356528,871.419814 C339.965378,870.926517 354.529637,871.090949 368.20493,871.090949 C368.916416,871.090949 373,870.596197 373,871.914567 C373,873.230028 366.962579,872.73673 365.363698,872.73673 L356.660953,872.73673 Z" id="Fill-325" fill="#A7A7A7"></path>
-                <text id="Phases" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="24" font-weight="bold" fill="#000000">
+                <text id="Phases" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="24" font-weight="bold" fill="#000000">
                     <tspan x="497" y="24">Phases</tspan>
                 </text>
-                <text id="Workshop-1" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
+                <text id="Workshop-1" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
                     <tspan x="302.84" y="91">Workshop 1</tspan>
                 </text>
-                <text id="(techniciens)" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
+                <text id="(techniciens)" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
                     <tspan x="304.998" y="109">(techniciens)</tspan>
                 </text>
-                <text id="Workshop-2" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
+                <text id="Workshop-2" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.576000035" fill="#6390B1">
                     <tspan x="306.84" y="304">Workshop 2</tspan>
                 </text>
-                <text id="(techniciens,-archit" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
+                <text id="(techniciens,-archit" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="12" font-weight="bold" fill="#000000">
                     <tspan x="318.565697" y="328">(techniciens</tspan>
                     <tspan x="388.465698" y="328" letter-spacing="-0.271395">,</tspan>
                     <tspan x="391.434303" y="328"> </tspan>
@@ -187,49 +187,49 @@
                     <tspan x="354.136279" y="344" letter-spacing="-0.271395">,</tspan>
                     <tspan x="357.104884" y="344"> étudiants)</tspan>
                 </text>
-                <text id="Exposition-interacti" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
+                <text id="Exposition-interacti" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
                     <tspan x="311.608" y="916">Exposition</tspan>
                     <tspan x="311.72" y="938">interactive </tspan>
                 </text>
-                <text id="Geste-urbain-de-l’En" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
+                <text id="Geste-urbain-de-l’En" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#6390B1">
                     <tspan x="290.852" y="1217">Geste urbain de </tspan>
                     <tspan x="300.732" y="1239">l’Entrée Nord </tspan>
                     <tspan x="324.428" y="1261">ﬁnalisé </tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="347" y="266">Suggestions</tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="276" y="639">Suggestions</tspan>
                 </text>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="276" y="966">Suggestions</tspan>
                 </text>
                 <polyline id="Stroke-341" stroke="#477393" stroke-width="0.972" stroke-dasharray="4.861,4.861" points="630 549 630 1015 502 1015"></polyline>
                 <polygon id="Fill-343" fill="#477393" points="512.454929 1009 513 1010.51608 502.090544 1014.49916 513 1018.48224 512.454929 1020 497 1014.49916"></polygon>
-                <text id="Web-App" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="12" font-weight="bold" letter-spacing="-0.432000041" fill="#6390B1">
+                <text id="Web-App" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="12" font-weight="bold" letter-spacing="-0.432000041" fill="#6390B1">
                     <tspan x="604.398" y="537">Web App</tspan>
                 </text>
-                <g id="Group-347" transform="translate(547.000000, 256.000000)" font-size="16" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" letter-spacing="-0.703999996" fill="#000000" font-weight="bold">
+                <g id="Group-347" transform="translate(547.000000, 256.000000)" font-size="16" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" letter-spacing="-0.703999996" fill="#000000" font-weight="bold">
                     <text id="Public-+-Parties">
                         <tspan x="30.0159998" y="12.6029919">P</tspan>
                         <tspan x="38.8639998" y="12.6029919" letter-spacing="-0.938666642">ublic + Parties</tspan>
                     </text>
                 </g>
-                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
+                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
                     <tspan x="586.629419" y="286">p</tspan>
                     <tspan x="597.141418" y="286" letter-spacing="-0.162837">r</tspan>
                     <tspan x="603.026582" y="286">enantes</tspan>
                 </text>
                 <path d="M350,764 L350,821" id="Stroke-353" stroke="#000000" stroke-width="0.972" stroke-dasharray="4.861,4.861"></path>
                 <polygon id="Fill-355" fill="#000000" points="344 809.546679 345.597204 809 349.499216 819.909456 353.402796 809 355 809.546679 349.499216 825"></polygon>
-                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
+                <text id="Suggestions" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="10" font-weight="normal" fill="#477393">
                     <tspan x="525" y="1029">Suggestions</tspan>
                 </text>
-                <text id="Public-+-Parties" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.703999996" fill="#000000">
+                <text id="Public-+-Parties" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" letter-spacing="-0.703999996" fill="#000000">
                     <tspan x="301.336" y="673">Public + Parties</tspan>
                 </text>
-                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
+                <text id="prenantes" font-family="AvenirNext-Bold, Avenir Next, Lato-Bold, Lato, Sans-serif" font-size="16" font-weight="bold" fill="#000000">
                     <tspan x="312.629418" y="689">p</tspan>
                     <tspan x="323.141418" y="689" letter-spacing="-0.162837">r</tspan>
                     <tspan x="329.026582" y="689">enantes</tspan>
@@ -272,12 +272,12 @@
                     <path d="M55.7359,15.5178571 C55.7359,17.4711429 56.4477571,19.0708571 57.5131857,20.3154286 C56.6237571,20.8481429 55.9134714,21.2032857 55.0256143,21.736 C54.4913286,20.493 53.6034714,19.2484286 52.3604714,18.3605714 C51.1159,17.4711429 49.6937571,16.9384286 48.2731857,16.9384286 C48.0956143,15.6938571 48.2731857,15.5178571 49.3386143,15.5178571 C51.6486143,15.3402857 53.6034714,15.5178571 55.7359,15.5178571" id="Fill-121"></path>
                     <path d="M17.3532857,52.1225571 L17.3532857,64.5619857 C15.9311429,64.3844143 14.8657143,63.4949857 15.576,62.2519857 L15.576,54.4341286 C14.8657143,54.2549857 15.0432857,54.0774143 15.0432857,53.8998429 C15.7535714,53.1895571 16.4654286,52.6568429 17.3532857,52.1225571" id="Fill-123"></path>
                 </g>
-                <text id="Le-calendrier-de-l'e-Copy" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
-                    <tspan x="27" y="703">Le calendrier de l'exposition sera </tspan>
-                    <tspan x="27" y="722">bientôt affiché. Vous pourrez y </tspan>
-                    <tspan x="27" y="741">laisser votre avis, qui sera </tspan>
-                    <tspan x="27" y="760">immédiatement transmis au site </tspan>
-                    <tspan x="27" y="779">web.</tspan>
+                <text id="Le-calendrier-de-l'e-Copy" font-family="AvenirNext-Regular, Avenir Next, Lato-Regular, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="14" y="706">Le calendrier de l'exposition sera </tspan>
+                    <tspan x="14" y="725">bientôt affiché. Vous pourrez y </tspan>
+                    <tspan x="14" y="744">laisser votre avis, qui sera </tspan>
+                    <tspan x="14" y="763">immédiatement transmis au site </tspan>
+                    <tspan x="14" y="782">web.</tspan>
                 </text>
             </g>
         </g>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Header extends Component {
   render() {
     return(
-      <div>
+      <div className='header-container'>
         <header className='hide-on-small-only'>
           <a href='/' className='header-item'>Info</a>
           <a href='/guide' className='header-item'>Guide d’utilisation</a>
