@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="436px" height="124px" viewBox="0 0 436 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Group 38</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -13,13 +13,13 @@
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                     <rect stroke="#749393" stroke-width="1" x="111.5" y="0.5" width="324" height="123" rx="3"></rect>
                 </g>
-                <text id="Bâti-Partagez-vos-op" font-family="AvenirNext-Bold, Avenir Next, sans-serif" font-size="24" font-weight="bold">
+                <text id="Bâti-Partagez-vos-op" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="24" font-weight="bold">
                     <tspan x="127" y="33" fill="#477393">Bâti</tspan>
-                    <tspan x="172.336" y="33" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#477393"></tspan>
-                    <tspan x="127" y="66" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">Partagez vos opinions au sujet des </tspan>
-                    <tspan x="127" y="88" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">bâtiments neufs ou à réhabiliter que </tspan>
-                    <tspan x="127" y="110" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">nous suggérons pour l’entrée nord ! </tspan>
-                    <tspan x="127" y="132" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A"></tspan>
+                    <tspan x="172.336" y="33" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#477393"></tspan>
+                    <tspan x="127" y="66" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">Partagez vos opinions au sujet des </tspan>
+                    <tspan x="127" y="88" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">bâtiments neufs ou à réhabiliter que </tspan>
+                    <tspan x="127" y="110" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">nous suggérons pour l’Entrée Nord ! </tspan>
+                    <tspan x="127" y="132" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A"></tspan>
                 </text>
                 <g id="icon-building">
                     <g id="Page-1-Copy-28" transform="translate(0.750000, 0.750000)">

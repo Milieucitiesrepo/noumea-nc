@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SurveyEntry from './_survey_entry'
 const VALID_QUESTION_NUMBERS = ['q4-1', 'q4-2', 'q4-3', 'q4-4', 'q4-5', 'q4-6', 'q4-7', 'q4-8', 'q4-9', 'q4-10', 'q4-11', 'q4-12', 'q4-13']
 
 export default class Espace extends Component {
@@ -34,14 +35,14 @@ export default class Espace extends Component {
 
               </div>
               <div className='content'>
-                <h2 className='margin-top-0'>Thématique 3 - espaces publiques/ espaces verts</h2>
+                <h2 className='margin-top-0'>Thématique 3 - espaces publics/ espaces verts</h2>
 
                 <p>
-                  Notre vision pour l’entrée nord vise à valoriser la parcelle en la désenclavant, en l’ouvrant non seulement vers le littoral mais aussi vers les quatre espaces publics clefs, desquelles elle deviendra le cœur battant.
+                  Notre vision pour l’Entrée Nord vise à valoriser le foncier en le désenclavant, en l’ouvrant non seulement vers le littoral mais aussi vers les quatre espaces publics clefs, desquels elle deviendra le cœur battant.
                 </p>
 
                 <p>
-                  En effet, l’entrée nord se trouve à la croisée des quatre espaces publics majeurs du centre-ville: un existant - la Place des Cocotiers, un en cours de développement - le Quai Ferry, et deux nouveaux espaces verts que nous souhaitons créer:
+                  En effet, l’Entrée Nord se trouve à la croisée des quatre espaces publics majeurs du centre-ville: un existant - la Place des Cocotiers, un en cours de développement - le Quai Ferry, et deux nouveaux espaces verts que nous souhaitons créer:
                 </p>
 
                 <ol>
@@ -50,12 +51,12 @@ export default class Espace extends Component {
                 </ol>
 
                 <p>
-                  Le parc en terrasse SLN, qui comprendra des aires de loisirs passifs, une voie cyclables, des allées piétonnes, un parking en surface vNous proposons que l’entrée nord devienne le fil conducteur reliant ces quatre espaces publics. Pour ce faire, nous souhaitons lui donner une identité unique: celle de jardin botanique vivant représentant les diverses essences végétales et agricoles caractéristiques des populations qui les ont apportées avec elles au grés de leurs migrations vers la Nouvelle Calédonie, et qui contribuent aujourd'hui à sa richesse culturelle.ert et durable, le terminal ferry et un nouveau musée maritime avec Le parc linéaire avenue James Cook.
+                  Nous proposons que l’Entrée Nord devienne le fil conducteur reliant ces quatre espacespublics. Pour ce faire, nous souhaitons lui donner une identité unique: celle d’un jardin botanique vivant représentant les diverses essences végétales et agricoles caractéristiques des populations qui les ont apportées avec elles au gré de leurs migrations vers la Nouvelle Calédonie, et qui contribuent aujourd'hui à sa richesse culturelle.
                 </p>
               </div>
             </div>
             <div className="questions">
-              <h4>3.1 Que pensez vous du placement et des identités de chaque espace vert/espace publique que nous proposons?</h4>
+              <h4>3.1 Que pensez-vous de l’emplacement et des identités de chaque espace vert/espace public que nous proposons?</h4>
 
               <img
                 className={`width-100-pct hide-on-large-only fixed-map ${this.state.showFixed ? '' : 'hide' }`}
@@ -74,21 +75,7 @@ export default class Espace extends Component {
                 this.props.questions.map((question, i) => {
                   if(VALID_QUESTION_NUMBERS.includes(question.question_number)) {
                     return(
-                      <div className='question' key={question.id}>
-                        <div className='flex align-items-center padding-top-20 padding-bottom-20'>
-                          <img src={question.url} className='height-15' />
-                          <h5 className='padding-left-15 bold margin-0' dangerouslySetInnerHTML={{__html: question.body}}></h5>
-                        </div>
-                        <div className='ratings'>
-                          <img src={require('../../images/hatewithpassion.svg')} />
-                          <img src={require('../../images/dislike.svg')} />
-                          <img src={require('../../images/indifferent.svg')} />
-                          <img src={require('../../images/like.svg')} />
-                          <img src={require('../../images/loveit.svg')} />
-                        </div>
-                        <input name={`user[answers_attributes][${i}][question_id]`} value={question.id} type='hidden' />
-                        <input name={`user[answers_attributes][${i}][body]`} type='range' step={1} min={0} max={4} defaultValue={2} className='width-100-pct max-width-400' />
-                      </div>
+                      <SurveyEntry question={question} i={i} key={question.id} />
                     )
                   }
                 })
@@ -97,7 +84,7 @@ export default class Espace extends Component {
               {
                 this.props.questions.length > 0 &&
                 <div className='padding-top-20 max-width-400'>
-                  <h5 className='padding-bottom-20 bold margin-0'>Comment</h5>
+                  <h5 className='padding-bottom-20 bold margin-0'>Commentaires</h5>
                   <input name={`user[answers_attributes][${commentIndex}][question_id]`} value={commentQuestion.id} type='hidden' />
                   <textarea name={`user[answers_attributes][${commentIndex}][body]`} />
                 </div>

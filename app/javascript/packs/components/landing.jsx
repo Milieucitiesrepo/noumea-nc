@@ -12,7 +12,7 @@ export default class Landing extends Component {
         <Share />
 
         <div className='flex justify-center video-wrapper'>
-          <iframe src='https://www.youtube.com/embed/irNSpO3uNl0?rel=0&amp;controls=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
+          <iframe src='https://www.youtube.com/embed/z0-Vo7SaSUg?rel=0&amp;controls=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
         </div>
 
         <div className='row padding-top-50'>
@@ -21,15 +21,15 @@ export default class Landing extends Component {
             <h3 className='center-align max-width-475 margin-center'>Proposition du scénario d’aménagement</h3>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
-              L’entrée nord du centre-ville de Nouméa est une zone caractérisée par l’ancien Centre Hospitalier Territorial Gaston-Bourret, son parking et la voie express #1. C’est actuellement un no man’s land, coupé du littoral et du centre-ville pourtant si proches, qui marque la baie de la Grande Rade d’un aspect désertique, vide et fantôme... Une baie jusque là délaissée, alors que son panorama est la première image de Nouméa que perçoivent la plupart des visiteurs. Une baie ignorée alors qu’elle est adjacente à deux sources majeurs de l’économie néo-caledonienne: la Société Le Nickel et le Port Autonome de la Nouvelle Calédonie.
+              L’Entrée Nord du centre-ville de Nouméa est une zone caractérisée par l’ancien Centre Hospitalier Territorial Gaston-Bourret, son parking et la voie express #1. C’est actuellement un no man’s land, coupé du littoral et du centre-ville pourtant si proches, qui marque la baie de la Grande Rade d’un aspect désertique, vide et fantôme... Une baie jusque là délaissée, alors que son panorama est la première image de Nouméa que perçoivent la plupart des visiteurs. Une baie ignorée alors qu’elle est adjacente à deux sources majeurs de l’économie néo-caledonienne: la Société Le Nickel et le Port Autonome de la Nouvelle Calédonie.
             </p>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
-              Et si cela changeait? Quel serait l’impact sur l’entrée nord et ses environs immédiats? Sur Nouméa et ses habitants? Enfin, sur la Nouvelle-Calédonie?
+              Et si cela changeait? Quel serait l’impact sur l’Entrée Nord et ses environs immédiats? Sur Nouméa et ses habitants? Enfin, sur la Nouvelle-Calédonie?
             </p>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
-              Nous proposons de developper une vision partagée pour l’entrée nord en tant que passerelle autant physique que symbolique: reliant le coeur de ville à la mer, les croisiéristes et touristes à la culture néo-calédonienne, et les populations nouméennes entre elles.
+              Nous proposons de developper une vision partagée pour l’Entrée Nord en tant que passerelle autant physique que symbolique: reliant le coeur de ville à la mer, les croisiéristes et touristes à la culture néo-calédonienne, et les populations nouméennes entre elles.
             </p>
 
             <p className='max-width-475 margin-center padding-top-20 sm-padding-left-20 sm-padding-right-20'>
@@ -41,12 +41,12 @@ export default class Landing extends Component {
               <h1 className='white-color center-align'>Thématiques</h1>
               <img
                 src={require('../images/theme-immediat-m.svg')}
-                alt='Usage immédiat du CHT Gaston-Bourret et de son parking: Prenez part à la première étape de la transformation de l’entrée nord !'
+                alt='Usage immédiat du CHT Gaston-Bourret et de son parking: Prenez part à la première étape de la transformation de l’Entrée Nord !'
               />
               <img
                 src={require('../images/theme-circulations-m.svg')}
                 className='margin-top-10'
-                alt='Circulations : Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, vélos, bus, néobus et petit train autour de l’entrée nord !'
+                alt='Circulations : Donnez votre avis sur notre proposition de reorganisation des flux véhicules, piétons, vélos, bus, néobus et petit train autour de l’Entrée Nord ! '
               />
               <img
                 src={require('../images/theme-public-m.svg')}
@@ -56,10 +56,10 @@ export default class Landing extends Component {
               <img
                 src={require('../images/theme-bati-m.svg')}
                 className='margin-top-10'
-                alt='Bâti : Partagez vos opinions au sujet des bâtiments neufs ou à réhabiliter que nous suggérons pour l’entrée nord !'
+                alt='Bâti : Partagez vos opinions au sujet des bâtiments neufs ou à réhabiliter que nous suggérons pour l’Entrée Nord !'
               />
 
-              <a href='/participez' className='btn margin-top-25 max-width-300'>Participez maintenant!</a>
+              <a href='/participez' className='btn-link margin-top-25 max-width-300'>Participez maintenant!</a>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default class Landing extends Component {
         />
 
         <div className='center-align padding-top-50'>
-          <a href='https://medium.com/entr%C3%A9e-nord-ville-de-noum%C3%A9a' className='btn-link'>Suivre les workshops ici</a>
+          <a href='https://medium.com/entr%C3%A9e-nord-ville-de-noum%C3%A9a' className='btn-link'>Info sur workshops et expo</a>
           <a href='/guide' className='btn'>Guide D'Utilisation</a>
         </div>
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SurveyEntry from './_survey_entry'
 const VALID_QUESTION_NUMBERS = ['q3-1', 'q3-2', 'q3-3', 'q3-4', 'q3-5', 'q3-6', 'q3-7', 'q3-8', 'q3-9', 'q3-10']
 
 export default class Circulation extends Component {
@@ -36,7 +37,7 @@ export default class Circulation extends Component {
                 <h2 className='margin-top-0'>Thématique 2 - Circulations</h2>
 
                 <p>
-                  La voie expresse #1 et la voie de desserte camion SLN longeant le front de mer contribuent à la coupure de l’entrée nord du littoral et de la Grande Rade. Cette coupure est accentuée par le fait que le complexe hospitalier est surélevé de 5 m par rapport au niveau de l’entrée nord, ses murs de soutènement à l’est et à l’ouest empêchant tout accès piéton.
+                  La Voie Express #1 et la voie de desserte camion SLN longeant le front de mer contribuent à la coupure de l’Entrée Nord du littoral et de la Grande Rade. Cette coupure est accentuée par le fait que le complexe hospitalier est surélevé de 5 m par rapport au niveau de l’Entrée Nord, ses murs de soutènement à l’est et à l’ouest empêchant tout accès piéton.
                 </p>
 
                 <p>
@@ -44,8 +45,8 @@ export default class Circulation extends Component {
                 </p>
 
                 <ul>
-                  <li>Le déplacement de la voie expresse #1 vers le périmètre nord de l’ancien complexe hospitalier</li>
-                  <li>Le déplacement de la voie de desserte camion SLN sur la voie expresse #1 selon un horaire prédéfini (hors heure de pointe)</li>
+                  <li>Le déplacement de la Voie Express #1 vers le périmètre nord de l’ancien complexe hospitalier</li>
+                  <li>L’intégration de la voie de desserte camion SLN à la Voie Express #1 lors des horaires prévus à cet effet (hors heure de pointe)</li>
                   <li>La création d’une large passerelle végétalisée qui mènerait de l’ancien complexe hospitalier vers le nouveau front de mer et son parc botanique</li>
                   <li>Le renforcement de l’axe piéton nord-sud menant de la Place des Cocotiers vers le front de mer</li>
                 </ul>
@@ -72,21 +73,7 @@ export default class Circulation extends Component {
                 this.props.questions.map((question, i) => {
                   if(VALID_QUESTION_NUMBERS.includes(question.question_number)) {
                     return(
-                      <div className='question' key={question.id}>
-                        <div className='flex align-items-center padding-top-20 padding-bottom-20'>
-                          <img src={question.url} className='height-15' />
-                          <h5 className='padding-left-15 bold margin-0' dangerouslySetInnerHTML={{__html: question.body}}></h5>
-                        </div>
-                        <div className='ratings'>
-                          <img src={require('../../images/hatewithpassion.svg')} />
-                          <img src={require('../../images/dislike.svg')} />
-                          <img src={require('../../images/indifferent.svg')} />
-                          <img src={require('../../images/like.svg')} />
-                          <img src={require('../../images/loveit.svg')} />
-                        </div>
-                        <input name={`user[answers_attributes][${i}][question_id]`} value={question.id} type='hidden' />
-                        <input name={`user[answers_attributes][${i}][body]`} type='range' step={1} min={0} max={4} defaultValue={2} className='width-100-pct max-width-400' />
-                      </div>
+                      <SurveyEntry question={question} i={i} key={question.id} />
                     )
                   }
                 })
@@ -95,7 +82,7 @@ export default class Circulation extends Component {
               {
                 this.props.questions.length > 0 &&
                 <div className='padding-top-20 max-width-400'>
-                  <h5 className='padding-bottom-20 bold margin-0'>Comment</h5>
+                  <h5 className='padding-bottom-20 bold margin-0'>Commentaires</h5>
                   <input name={`user[answers_attributes][${commentIndex}][question_id]`} value={commentQuestion.id} type='hidden' />
                   <textarea name={`user[answers_attributes][${commentIndex}][body]`} />
                 </div>

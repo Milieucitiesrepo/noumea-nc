@@ -14,7 +14,7 @@ export default class Share extends Component {
         <a href={`http://www.facebook.com/sharer/sharer.php?u=${url}`} className='icon'>
           <img src={require('../images/share-fb.svg')} alt='Share Facebook'/>
         </a>
-        <h6 className='bold margin-0'>Envoyer à architecte urbaniste</h6>
+        <h6 className='bold margin-0'>Envoyez un message à l'architecte urbaniste</h6>
         <a href='mailto:ac@azizachaouniprojects.com' className='icon scale'>
           <img src={require('../images/email-message-planner.svg')} alt='Email Noumea'/>
         </a>

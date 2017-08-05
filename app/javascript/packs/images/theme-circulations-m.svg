@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="437px" height="152px" viewBox="0 0 437 152" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Group 35</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -13,13 +13,13 @@
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                     <rect stroke="#749393" stroke-width="1" x="112.5" y="0.5" width="324" height="151" rx="3"></rect>
                 </g>
-                <text id="Circulations-Donnez" font-family="AvenirNext-Bold, Avenir Next, sans-serif" font-size="24" font-weight="bold">
+                <text id="Circulations-Donnez" font-family="AvenirNext-Bold, Avenir Next" font-size="24" font-weight="bold">
                     <tspan x="127" y="39" fill="#477393">Circulations</tspan>
                     <tspan x="264.496" y="39" font-size="16" fill="#477393"> </tspan>
-                    <tspan x="127" y="72" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">Donnez votre avis sur notre proposition </tspan>
-                    <tspan x="127" y="94" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">de reorganisation des flux véhicules, </tspan>
-                    <tspan x="127" y="116" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">piétons, vélos, bus, néobus et petit train </tspan>
-                    <tspan x="127" y="138" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#4A4A4A">autour de l’entrée nord ! </tspan>
+                    <tspan x="127" y="72" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">Donnez votre avis sur notre proposition </tspan>
+                    <tspan x="127" y="94" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">de reorganisation des flux véhicules, </tspan>
+                    <tspan x="127" y="116" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">piétons, vélos, bus, néobus et petit train </tspan>
+                    <tspan x="127" y="138" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">autour de l’Entrée Nord ! </tspan>
                 </text>
                 <g id="icon-flux" transform="translate(0.000000, 16.000000)">
                     <g id="Page-1-Copy-17" transform="translate(0.750000, 0.750000)">

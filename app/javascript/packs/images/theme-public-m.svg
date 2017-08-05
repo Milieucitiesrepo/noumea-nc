@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="437px" height="160px" viewBox="0 0 437 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Group 25</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -13,13 +13,13 @@
                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                 <rect stroke="#749393" stroke-width="1" x="112.5" y="0.5" width="324" height="159" rx="3"></rect>
             </g>
-            <text id="Espaces-publics-et-e" font-family="AvenirNext-Bold, Avenir Next, sans-serif" font-size="24" font-weight="bold">
-                <tspan x="127" y="38" fill="#3a7496">Espaces publics et </tspan>
-                <tspan x="127" y="71" fill="#3a7496">espaces verts</tspan>
-                <tspan x="283.072" y="71" font-size="16" fill="#3a7496"> </tspan>
-                <tspan x="127" y="104" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333">Proposez des espaces publics et espaces </tspan>
-                <tspan x="127" y="126" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333">verts qui auront la capacité d’améliorer </tspan>
-                <tspan x="127" y="148" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333">votre qualité de vie !</tspan>
+            <text id="Espaces-publics-et-e" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="24" font-weight="bold">
+                <tspan x="127" y="38" fill="#477393">Espaces publics et </tspan>
+                <tspan x="127" y="71" fill="#477393">espaces verts</tspan>
+                <tspan x="283.072" y="71" font-size="16" fill="#477393"> </tspan>
+                <tspan x="127" y="104" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">Proposez des espaces publics et espaces </tspan>
+                <tspan x="127" y="126" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">verts qui auront la capacité d’améliorer </tspan>
+                <tspan x="127" y="148" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">votre qualité de vie !</tspan>
             </text>
             <g id="icon-public" transform="translate(0.000000, 20.000000)">
                 <g id="Page-1-Copy-19" transform="translate(0.750000, 0.750000)">

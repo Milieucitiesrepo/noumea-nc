@@ -24,19 +24,19 @@ export default class Footer extends Component {
           <a href='http://www.azizachaouniprojects.com/'>
             <img
               src={require(`../images/logo-acp.svg`)}
-              className='height-60 margin-left-20 margin-right-20'
+              className='height-80 margin-left-20 margin-right-20'
             />
           </a>
-          <a href='http://www.caissedesdepots.fr/'>
+          <a href='https://www.scet.fr/'>
             <img
               src={require(`../images/logo-scet.png`)}
-              className='height-60 margin-left-20 margin-right-20'
+              className='height-80 margin-left-20 margin-right-20'
             />
           </a>
           <a href='https://milieu.io/'>
             <img
               src={require(`../images/logo-milieu.svg`)}
-              className='height-60 margin-left-20 margin-right-20'
+              className='height-80 margin-left-20 margin-right-20'
             />
           </a>
         </div>

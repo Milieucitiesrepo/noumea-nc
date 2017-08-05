@@ -25,22 +25,6 @@ header {
   }
 }
 
-.logos {
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-
-  @media #{$small-and-down} {
-    padding: 25px 0;
-  }
-
-  a img {
-    height: 60px;
-    margin: 0 20px;
-    object-fit: contain;
-  }
-}
-
 .themes {
   background: linear-gradient(45deg, #a8c0b2, #477393);
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="437px" height="168px" viewBox="0 0 437 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
     <title>Group 36</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M115,1.19508461e-13 L434,-3.11232702e-14 L434,-3.33066907e-14 C435.656854,-2.70782203e-15 437,1.34314575 437,3 L437,165 L437,165 C437,166.656854 435.656854,168 434,168 L115,168 L115,168 C113.343146,168 112,166.656854 112,165 L112,3 L112,3 C112,1.34314575 113.343146,1.27757966e-13 115,1.27453603e-13 Z" id="path-1"></path>
+        <path d="M115,1.19508407e-13 L434,-3.11233515e-14 L434,-3.24185123e-14 C435.656854,-3.2722875e-14 437,1.34314575 437,3 L437,165 L437,165 C437,166.656854 435.656854,168 434,168 L115,168 L115,168 C113.343146,168 112,166.656854 112,165 L112,3 L112,3 C112,1.34314575 113.343146,1.28202055e-13 115,1.27897692e-13 Z" id="path-1"></path>
         <polygon id="path-2" points="0.000541304348 0.630371613 62.0534806 0.630371613 62.0534806 81.7491899 0.000541304348 81.7491899 0.000541304348 0.630371613"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -13,14 +13,14 @@
                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                 <path stroke="#749393" stroke-width="1" d="M115,0.5 C113.619288,0.5 112.5,1.61928813 112.5,3 L112.5,165 C112.5,166.380712 113.619288,167.5 115,167.5 L434,167.5 C435.380712,167.5 436.5,166.380712 436.5,165 L436.5,3 C436.5,1.61928813 435.380712,0.5 434,0.5 L115,0.5 Z"></path>
             </g>
-            <text id="Usage-immédiat-du-CH" font-family="AvenirNext-Bold, Avenir Next, sans-serif" font-size="24" font-weight="bold">
-                <tspan x="127" y="35" fill="#3a7496">Usage immédiat du CHT </tspan>
-                <tspan x="127" y="68" fill="#3a7496">Gaston-Bourret et de son </tspan>
-                <tspan x="127" y="101" fill="#3a7496">parking</tspan>
-                <tspan x="217.816" y="101" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#3a7496"></tspan>
-                <tspan x="127" y="134" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333">Prenez part à la première étape de la </tspan>
-                <tspan x="127" y="156" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333">transformation de l’entrée nord !</tspan>
-                <tspan x="362.744" y="156" font-family="AvenirNext-Regular, Avenir Next, sans-serif" font-size="16" font-weight="300" fill="#333"></tspan>
+            <text id="Usage-immédiat-du-CH" font-family="AvenirNext-Bold, Avenir Next, Lato, Sans-serif" font-size="24" font-weight="bold">
+                <tspan x="127" y="35" fill="#477393">Usage immédiat du CHT </tspan>
+                <tspan x="127" y="68" fill="#477393">Gaston-Bourret et de son </tspan>
+                <tspan x="127" y="101" fill="#477393">parking</tspan>
+                <tspan x="217.816" y="101" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#477393"></tspan>
+                <tspan x="127" y="134" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">Prenez part à la première étape de la </tspan>
+                <tspan x="127" y="156" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#4A4A4A">transformation de l’Entrée Nord !</tspan>
+                <tspan x="366.952" y="156" font-family="AvenirNext-Regular, Avenir Next, Lato, Sans-serif" font-size="16" font-weight="normal" fill="#477393"></tspan>
             </text>
             <g id="icon-temporary" transform="translate(0.000000, 23.000000)">
                 <g id="Page-1-Copy-10" transform="translate(0.750000, 0.750000)" stroke="#749393" fill="#FFFFFF">

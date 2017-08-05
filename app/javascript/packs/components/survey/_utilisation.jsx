@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SurveyEntry from './_survey_entry'
 const VALID_QUESTION_NUMBERS = ['q2-1', 'q2-2', 'q2-3', 'q2-4', 'q2-5', 'q2-6', 'q2-7', 'q2-8', 'q2-9', 'q2-10', 'q2-11', 'q2-12', 'q2-13', 'q2-14']
 
 export default class Utilisation extends Component {
@@ -46,13 +47,13 @@ export default class Utilisation extends Component {
                 <h3>1.2 Usage temporaire du parking et du terrain vague adjacent</h3>
 
                 <p>
-                  Enclavé entre le mur de soutènement de l’ancien hôpital et la voie express 1, le parking Gaston-Bourret est peu utilisé aujourd’hui. Le manque d’ombrage et de verdure ainsi que la surface en asphalte qui capte la chaleur, le rendent peu hospitalier. Cependant, grâce à divers mobiliers urbains, à des auvents, à l’introduction de végétation et à l’impulsion d’événements culturels ponctuels, le parking peut devenir très rapidement non seulement un espace public à l’excellent confort thermique, mais aussi un lieu dynamique où diverses cultures urbaines peuvent se rencontrer et s’exprimer. Nous proposons de placer, de manière provisoire, le terminus de bus (réseau RAÏ et Karuia) actuellement sur le site du Port Moselle, sur le terrain vague à l’ouest du parking de l’ancien CHT Gaston-Bourret. Le parking de bus pour croisièristes temporaire sera quant à lui placé juste au nord de la voie express 1.
+                  Enclavé entre le mur de soutènement de l’ancien hôpital et la Voie Express # 1, le parking Gaston-Bourret est peu utilisé aujourd’hui. Le manque d’ombrage et de verdure ainsi que la surface en asphalte qui capte la chaleur, le rendent peu hospitalier. Cependant, grâce à divers mobiliers urbains, à des auvents, à l’introduction de végétation et à l’impulsion d’événements culturels ponctuels, le parking peut devenir très rapidement non seulement un espace public à l’excellent confort thermique, mais aussi un lieu dynamique où diverses cultures urbaines peuvent se rencontrer et s’exprimer. Nous proposons de placer, de manière provisoire, le terminus de bus (réseau RAÏ) actuellement sur le site du Port Moselle, sur le terrain vague à l’ouest du parking de l’ancien CHT Gaston-Bourret. Le parking de bus pour croisiéristes temporaire sera quant à lui placé juste au nord de la Voie Express # 1.
                 </p>
               </div>
             </div>
 
             <div className='questions'>
-              <h4>Notez les differents programmes que nous proposons! Donnez nous votre avis sur chacun!</h4>
+              <h4>Notez les différents programmes que nous proposons! Donnez-nous votre avis sur chacun!</h4>
 
               <img
                 className={`width-100-pct hide-on-large-only fixed-map ${this.state.showFixed ? '' : 'hide' }`}
@@ -71,21 +72,7 @@ export default class Utilisation extends Component {
                 this.props.questions.map((question, i) => {
                   if(VALID_QUESTION_NUMBERS.includes(question.question_number)) {
                     return(
-                      <div className='question' key={question.id}>
-                        <div className='flex align-items-center padding-top-20 padding-bottom-20'>
-                          <img src={question.url} className='height-15 scale' />
-                          <h5 className='padding-left-15 bold margin-0' dangerouslySetInnerHTML={{__html: question.body}}></h5>
-                        </div>
-                        <div className='ratings'>
-                          <img src={require('../../images/hatewithpassion.svg')} />
-                          <img src={require('../../images/dislike.svg')} />
-                          <img src={require('../../images/indifferent.svg')} />
-                          <img src={require('../../images/like.svg')} />
-                          <img src={require('../../images/loveit.svg')} />
-                        </div>
-                        <input name={`user[answers_attributes][${i}][question_id]`} value={question.id} type='hidden' />
-                        <input name={`user[answers_attributes][${i}][body]`} type='range' step={1} min={0} max={4} defaultValue={2} className='width-100-pct max-width-400' />
-                      </div>
+                      <SurveyEntry question={question} i={i} key={question.id} />
                     )
                   }
                 })
@@ -94,7 +81,7 @@ export default class Utilisation extends Component {
               {
                 this.props.questions.length > 0 &&
                 <div className='padding-top-20 max-width-400'>
-                  <h5 className='padding-bottom-20 bold margin-0'>Comment</h5>
+                  <h5 className='padding-bottom-20 bold margin-0'>Commentaires</h5>
                   <input name={`user[answers_attributes][${commentIndex}][question_id]`} value={commentQuestion.id} type='hidden' />
                   <textarea name={`user[answers_attributes][${commentIndex}][body]`} />
                 </div>

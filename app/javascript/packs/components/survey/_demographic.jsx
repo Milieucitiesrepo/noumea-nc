@@ -16,7 +16,7 @@ export default class Demographic extends Component {
       <div className={this.props.hide ? 'hide' : 'container' }>
         <div className='row'>
           <div className='col s12 l6'>
-            <h2 className='margin-top-0 sm-padding-top-25'>Information Démographique</h2>
+            <h2 className='margin-top-0 sm-padding-top-25'>Informations personnelles</h2>
 
             <div className='row'>
               <div className='col s12'>
@@ -28,7 +28,7 @@ export default class Demographic extends Component {
             <div className='row'>
               <div className='col s12'>
                 <input type='checkbox' id='vivez' name='user[lives_in_noumea]' onChange={this.handleChange} checked={this.state.livesInNoumea} />
-                <label htmlFor='vivez'>Vivez vous à Nouméa?</label>
+                <label htmlFor='vivez'>Vivez-vous à Nouméa?</label>
               </div>
             </div>
 
