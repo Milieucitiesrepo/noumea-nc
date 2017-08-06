@@ -12,7 +12,7 @@ export default class Landing extends Component {
         <Share />
 
         <div className='flex justify-center video-wrapper'>
-          <iframe src='https://www.youtube.com/embed/z0-Vo7SaSUg?rel=0&amp;controls=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
+          <iframe src='https://www.youtube.com/embed/z0-Vo7SaSUg?rel=0&amp;showinfo=0' frameBorder='0' allowFullScreen></iframe>
         </div>
 
         <div className='row padding-top-50'>
