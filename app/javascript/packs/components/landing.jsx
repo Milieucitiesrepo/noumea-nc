@@ -75,7 +75,7 @@ export default class Landing extends Component {
         </p>
 
         <p className='padding-20 margin-0 hide-on-med-and-up'>
-          Le calendrier de l'exposition sera bientôt affiché. Vous pourrez y laisser votre avis, qui sera immédiatement transmis au site web.
+          L’exposition aura lieu à la salle d’honneur de l’Hòtel de Ville de Nouméa le 30 octobre 2017 de 17:00 à 19:00, et du mardi 31 octobre au 2 novembre de 12:00 à 19:00. L’exposition aura lieu le 30 octobre 2017 de 17:00 à 19:00, et du mardi 31 octobre au 2 novembre de 12:00 à 19:00.
         </p>
 
         <img
