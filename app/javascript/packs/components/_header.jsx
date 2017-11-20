@@ -7,7 +7,7 @@ export default class Header extends Component {
         <header className='hide-on-small-only'>
           <a href='/' className='header-item'>Info</a>
           <a href='/guide' className='header-item'>Guide d’utilisation</a>
-          <a href='/participez' className='header-item'>Participer</a>
+          //<a href='/participez' className='header-item'>Participer</a>
         </header>
 
         <a href='https://www.noumea.nc' className='block margin-bottom-25 margin-top-25'>

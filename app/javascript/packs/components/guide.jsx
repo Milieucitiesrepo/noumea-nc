@@ -36,7 +36,7 @@ export default class Guide extends Component {
         />
 
         <div className='center-align padding-top-50'>
-          <a href='/participez' className='btn'>Participez maintenant!</a>
+          //<a href='/participez' className='btn'>Participez maintenant!</a>
         </div>
 
         <Footer />
@@ -44,7 +44,7 @@ export default class Guide extends Component {
         <header className='hide-on-med-and-up'>
           <a href='/' className='header-item width-25-pct'>Info</a>
           <a href='/guide' className='header-item width-50-pct'>Guide d’utilisation</a>
-          <a href='/participez' className='header-item width-25-pct'>Participer</a>
+          //<a href='/participez' className='header-item width-25-pct'>Participer</a>
         </header>
       </div>
     )
