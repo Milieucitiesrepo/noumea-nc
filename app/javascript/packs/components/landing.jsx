@@ -59,7 +59,7 @@ export default class Landing extends Component {
                 alt='Bâti : Partagez vos opinions au sujet des bâtiments neufs ou à réhabiliter que nous suggérons pour l’Entrée Nord !'
               />
 
-            //<a href='/participez' className='btn-link margin-top-25 max-width-300'>Participez maintenant!</a>
+            <a href='https://medium.com/entr%C3%A9e-nord-ville-de-noum%C3%A9a' className='header-item'>Workshops et expo</a>
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default class Landing extends Component {
         <header className='hide-on-med-and-up'>
           <a href='/' className='header-item width-25-pct'>Info</a>
           <a href='/guide' className='header-item width-50-pct'>Guide d’utilisation</a>
-          //<a href='/participez' className='header-item width-25-pct'>Participer</a>
+          <a href='https://medium.com/entr%C3%A9e-nord-ville-de-noum%C3%A9a' className='header-item'>Workshops et expo</a>
         </header>
       </div>
     )
